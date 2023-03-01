@@ -17,6 +17,8 @@ import wall_painting from "./images/wall_painting.webp"
 import texture from "./images/texture.webp"
 import kids_room from "./images/kids_room.webp"
 import mahadev from "./images/mahadev.webp"
+import Why_choose_us from './Why_choose_us'
+import Work_process from './Work_process'
 
 
 
@@ -24,6 +26,7 @@ import mahadev from "./images/mahadev.webp"
 const What_offer = () => {
     return (
         <div>
+            <Why_choose_us />
             <div className='p-4 ml-[20px]'>
                 <div>
                     <p className='text-[#E64306] font-sans text-[18px] font-bold tracking-wider'>What we offer</p>
@@ -319,6 +322,7 @@ const What_offer = () => {
                     </div>
                 </div>
             </div>
+            <Work_process />
         </div>
     )
 }
