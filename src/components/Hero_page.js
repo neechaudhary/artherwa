@@ -43,9 +43,9 @@ const Hero_page = () => {
             </section>
 
             <section className='w-full mt-[-24px] mb-[50px]'>
-                <div className='mx-[20px] w-full flex '>
-                    <div className='w-[9%]'></div>
-                    <div className='w-[46%] z-10'>
+                <div className=' w-full flex '>
+               
+                    <div className='max-w-[600px] z-10 relative top-[-30px] left-[100px]'>
                         <div className='w-full mx-[50px] bg-[#061E3F] p-[10px] content-start'>
                             <div className='mb-[10px] w-full '>
                                 <div className='mt-[20px] ml-[70px]'>
@@ -74,8 +74,6 @@ const Hero_page = () => {
                         </div>
 
                     </div>
-                    <div className='w-[45%]'> </div>
-
                 </div>
             </section>
             <About_main_page />
