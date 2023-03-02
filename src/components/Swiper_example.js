@@ -42,7 +42,7 @@ const Swiper_example = () => {
               <img src={slider_img} alt="" />
             </div>
             <div className='my-[30px]'>
-              <h1 className='text-[18px] font-bold flex  justify-center'>Angelchaudhary</h1>
+              <h1 className='text-[18px] font-bold flex  justify-center'>Angel chaudhary</h1>
               <p className='flex  justify-center text-[#6F6B6B]'>Founder</p>
             </div>
           </div>
