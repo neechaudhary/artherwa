@@ -14,7 +14,7 @@ import emblem from './images/emblem.webp'
 const Review = () => {
     return (
         <div>
-            <section className='mt-[30px]'>
+            <section className='mt-[40px]'>
                 <div className='flex flex-col text-center'>
                     <div className='text-[#FF1E00] text-[15px] font-medium'>CLIENT REVIEWS</div>
                     <div className='text-[#033957] text-[39px] font-semibold'>What People & Client Think About Us ?</div>
@@ -42,7 +42,7 @@ const Review = () => {
 
             <section className='my-[40px] mt-[40px]'>
             <div className='text-center my-[30px]'>
-                    <h1>SEE OUR REVIEWS ON</h1>
+                    <h1>OUR CLIENTS</h1>
                 </div>
                 <div className='flex justify-around mt-[50px]'>
                     <div className='w-[130px] h-[123px]'>

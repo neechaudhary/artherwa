@@ -86,6 +86,12 @@ function Contact() {
       <div className='w-full h-[100vh]'>
         <Google_maps/>
       </div> */}
+
+   
+
+
+
+
       <Footer/>
     </div>
   );
