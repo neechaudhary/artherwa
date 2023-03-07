@@ -13,43 +13,43 @@ const Why_choose_us = () => {
     return (
         <div>
             <section className='bg-[#03203C] mt-[50px]'>
-                <div className='flex  h-full items-center '>
-                    <div className='left_div w-[50vw] lg:w-[48%] px-[30px]  ml-[30px]'>
-                        <div>
+                <div className='flex flex-wrap h-full items-center '>
+                    <div className='left_div w-full lg:w-[48%] px-[30px]  ml-[30px]'>
+                        <div className='p-[40px]'>
                             <div className='text-[20px] text-[#EC2C05] font-semibold'>
                                 <h1>WHY CHOOSE US</h1>
                             </div>
-                            <div className='text-white text-[29px] font-semibold tracking-wider font-sans mb-[10px]'>
+                            <div className='text-white text-[19px] md:text-[29px] font-semibold tracking-wider font-sans mb-[10px]'>
                                 <h1>The Perfect Solution For All Art Service</h1>
                             </div>
                             <div className='text-white text-[12px] font-semibold tracking-wider'>
                                 <h1>FOR PROVIDING THE BEST TO YOU, WE HAVE A TEAM OF PROFESSIONAL ARTIST. OUR EXPERTS ARE TRAINED SO THAT THEY CAN EASILY GIVE THEIR BEST TO YOU AND MAKE YOU SATISFIED WITH THE SERVICES.</h1>
                             </div>
-                            <div className='flex flex-wrap justify-between mt-[20px]'>
-                                <div className='flex items-center justify-center w-[208px]'>
-                                    <div className='text-[#EC2C05] mr-[20px]'><SlPeople size={50} /></div>
-                                    <div className='text-white text-[23px] font-semibold'>
-                                        <span>Expert &</span><br />
+                            <div className='flex flex-wrap justify-center sm:justify-between mt-[20px]'>
+                                <div className='sm:flex  items-center w-full  sm:w-[208px] mb-[20px] sm-mb-[0px]'>
+                                    <div className='text-[#EC2C05] flex justify-center sm:block  mr-[20px]'><SlPeople size={50} /></div>
+                                    <div className='text-white flex justify-center sm:block text-[23px] font-semibold'>
+                                        <span>Expert & &nbsp;</span><br />
                                         <span>Professional</span>
                                     </div>
                                 </div>
-                                <div className='flex items-center justify-center w-[208px]'>
-                                    <div className='text-[#EC2C05] mr-[20px]'><TiMessages size={50} /></div>
-                                    <div className='text-white text-[23px] font-semibold'>
+                                <div className='flex flex-wrap items-center justify-center w-[208px] mb-[20px] sm-mb-[0px]'>
+                                    <div className='text-[#EC2C05] flex justify-center sm:block mr-[20px]'><TiMessages size={50} /></div>
+                                    <div className='text-white flex justify-center sm:block text-[23px] font-semibold'>
                                         <span>Free</span><br />
                                         <span>consultation</span>
                                     </div>
                                 </div>
                             </div>
-                            <div className='flex flex-wrap justify-between mt-[20px]'>
-                                <div className='flex items-center justify-center w-[208px]'>
-                                    <div className='text-[#EC2C05] mr-[20px]'><AiTwotoneStar size={50} /></div>
-                                    <div className='text-white text-[23px] font-semibold'>
+                            <div className='flex flex-wrap justify-center sm:justify-between mt-[20px]'>
+                                <div className='flex flex-wrap items-center justify-center w-[208px] mb-[20px] sm-mb-[0px]'>
+                                    <div className='text-[#EC2C05] flex justify-center sm:block mr-[20px]'><AiTwotoneStar size={50} /></div>
+                                    <div className='text-white flex justify-center sm:block text-[23px] font-semibold'>
                                         <span>Best Quality</span><br />
                                         <span>Service</span>
                                     </div>
                                 </div>
-                                <div className='flex items-center justify-center w-[208px]'>
+                                <div className='flex items-center justify-center w-[208px] mb-[20px] sm-mb-[0px]'>
                                     <div className='text-[#EC2C05] mr-[20px]'><GiWallet size={50} /></div>
                                     <div className='text-white text-[23px] font-semibold'>
                                         <span>Affordable</span><br />
@@ -71,9 +71,9 @@ const Why_choose_us = () => {
                         </div>
 
                     </div>
-                    <div className='right_div w-[50vw] '>
-                        <div className='p-[10px]'>
-                           <img src={why_choose_us} alt="why choose us image" />
+                    <div className='right_div mb-[30px] mx-[80px] w-full lg:w-[50vw]  '>
+                        <div className='p-[10px] h-[40%] md:h-[80%]'>
+                           <img src={why_choose_us} alt="why choose us image" className='h-[342px] w-full sm:h-full' />
                         </div>
                     </div>
                 </div>

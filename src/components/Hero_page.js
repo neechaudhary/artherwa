@@ -7,17 +7,17 @@ import About_main_page from './About_main_page'
 const Hero_page = () => {
     return (
         <div>
-            <section style={{ backgroundImage: `url(${hero_image})`, backgroundRepeat: "no-repeat", backgroundSize: "100%", }} className='min-h-[747px] flex m-auto w-full relative '>
+            <section style={{ backgroundImage: `url(${hero_image})`, backgroundRepeat: "no-repeat", backgroundSize: "100%",  }} className='md:min-h-[540px] lg:min-h-[600px] flex  w-full relative '>
                 <div className='bg-[#01060F9C] opacity-50 absolute top-0 left-0 w-full h-full'></div>
                 <div className='w-full flex items-center'>
                     <div className='w-full flex z-10'>
-                        <div className='left-hero w-[54%]'>
-                            <div className='ml-[70px] p-[10px]  mb-[10px] w-full '>
+                        <div className='left-hero w-full md:w-[54%]'>
+                            <div className=' m-auto md:ml-[70px] p-[10px]  mb-[10px] w-full '>
                                 <div>
                                     <h6 className='text-[#ffffff] text-[16px] font-semibold leading-none tracking-wider' >ALL TYPE ART SOLUTION</h6>
                                 </div>
                                 <div className='mb-[10px] w-full'>
-                                    <div className='mt-[20px] text-[55px]'>
+                                    <div className='mt-[20px] text-[23px] xl:text-[55px]'>
                                         <h1 className='text-[#05132A] font-sans  font-black leading-[1.5em] tracking-[1.5px]'>BEST GRAFFITI ARTIST IN DELHI NCR, INDIA</h1>
                                     </div>
                                 </div>
@@ -36,16 +36,16 @@ const Hero_page = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className='right_hero w-[46%]'>
+                        <div className='right_hero w-[46%] hidden md:block'>
                         </div>
                     </div>
                 </div>
             </section>
 
-            <section className='w-full mt-[-24px] mb-[50px]'>
+            <section className='w-full mt-[0px] md:mt-[-24px]  md:mb-[50px]'>
                 <div className=' w-full flex '>
                
-                    <div className='max-w-[600px] z-10 relative top-[-30px] left-[100px]'>
+                    <div className='max-w-[400px] sm:max-w-[600px] z-10 relative top-[0px] left-[0px] md:left-[100px]'>
                         <div className='w-full mx-[50px] bg-[#061E3F] p-[10px] content-start'>
                             <div className='mb-[10px] w-full '>
                                 <div className='mt-[20px] ml-[70px]'>

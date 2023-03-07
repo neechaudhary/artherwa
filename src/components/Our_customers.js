@@ -31,11 +31,11 @@ const Our_customers = () => {
                 </div>
             </section>
 
-            <section className='px-[20px]  flex justify-center mb-[50px] mt-[-50px] '>
+            <section className='px-[20px]  flex  justify-center mb-[50px] mt-[-50px] '>
                 <div className='  w-[80%] z-10 '>
-                    <div className='flex justify-center shadow-md py-[20px] px-[15px] w-full bg-white  ' >
-                        <div className='flex w-full'> 
-                            <div className='text-[#EC2C05]'><BsPersonFill size={50} /></div>
+                    <div className='flex flex-wrap justify-center shadow-md py-[20px] px-[15px] w-full bg-white  ' >
+                        <div className='flex flex-wrap w-full'> 
+                            <div className='text-[#EC2C05] flex justify-center '><BsPersonFill size={50} /></div>
                             <div className='text-center w-full'>
                                 <div className='text-[#021D36] text-[26px] font-bold tracking-widest'>12000+</div>
                                 <div>Happy Customers</div>

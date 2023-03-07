@@ -9,27 +9,27 @@ import What_offer from './What_offer'
 const About_main_page = () => {
     return (
         <div>
-            <div className='flex flex-wrap lg:flex-nowrap'>
-                <div className='w-1/2'>
-                    <div className='flex '>
-                        <div className='flex flex-col justify-end w-1/2'>
-                            <div className='h-[80%] '>
+            <div className='flex flex-wrap xl:flex-nowrap '>
+                <div className=' w-full xl:w-1/2 pt-[20px] order-2 xl:order-none'>
+                    <div className='flex flex-wrap md:flex-nowrap'>
+                        <div className='flex flex-col  md:justify-end w-full md:w-1/2'>
+                            <div className='xl:h-[80%] h-full mb-[20px] md:mb-[0px]'>
                                 <img src={panda_img} alt="panda image" className="h-full m-auto" />
                             </div>
                         </div>
-                        <div className='w-1/2'>
-                            <img src={king_painting} alt="king painting" />
+                        <div className='w-full md:w-1/2'>
+                            <img src={king_painting} alt="king painting" className="h-full m-auto" />
                         </div>
                     </div>
-                    <div className='relative top-[-100px] flex justify-end'>
-                        <div className='w-[400px] p-10 bg-[#02152F] flex flex-col justify-center'>
+                    <div className='relative top-[0px] md:top-[-100px] flex justify-end'>
+                        <div className='w-full md:w-[600px] xl:w-[400px] p-10 bg-[#02152F] flex flex-col justify-center'>
                             <div className='font-bold text-[#fd4306] text-[35px]'>10+ Years</div>
                             <div className='text-white text-[30px] font-bold'>Working Experience</div>
 
                         </div>
                     </div>
                 </div>
-                <div className='w-1/2 p-4 ml-4'>
+                <div className=' w-full xl:w-1/2  md:p-4 ml-4 order-1 xl:order-none '>
                     <div className='mb-[20px]'>
                         <h1 className='text-[25px] text-[#E64306] font-semibold font-sans'>About Us</h1>
                     </div>

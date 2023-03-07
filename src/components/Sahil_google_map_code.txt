@@ -1,0 +1,21 @@
+ <div className="mapouter">
+              <div className="gmap_canvas">
+                <iframe
+                  className="gmap_iframe"
+                  frameBorder={0}
+                  scrolling="no"
+                  marginHeight={0}
+                  marginWidth={0}
+                  src="https://maps.google.com/maps?width=230&height=230&hl=en&q=pearl best height 1 &t=&z=14&ie=UTF8&iwloc=B&output=embed"
+                />
+                <a href="https://pdflist.com/" alt="pdflist.com">
+                  Pdflist.com
+                </a>
+              </div>
+              <style
+                dangerouslySetInnerHTML={{
+                  __html:
+                    ".mapouter{position:relative;text-align:right;width:250px;height:250px;}.gmap_canvas {overflow:hidden;background:none!important;width:250px;height:250px;}.gmap_iframe {width:250px!important;height:250px!important;}",
+                }}
+              />
+            </div>

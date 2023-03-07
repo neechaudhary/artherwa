@@ -3,12 +3,104 @@ import Google_maps from "./Google_maps";
 import Navbar from "./Navbar";
 import contact_bg from './images/contact_bg.jpg';
 import { Link } from "react-router-dom";
+//icons
+import { BsEnvelope } from "react-icons/bs";
+import { BiPhoneCall } from "react-icons/bi"
+import { FaSearchLocation } from "react-icons/fa"
+import Sahil_gmap from "./Sahil_gmap";
 
 function Contact() {
-  return (
-    <div>
-      <Navbar/>
-      {/* <div className="bg-center bg-cover" style={{backgroundImage: `url(${contact_bg})`}}>
+    return (
+        <div>
+            <Navbar />
+            {/* =====upper part start===== */}
+            <div className="bg-center bg-cover" style={{ backgroundImage: `url(${contact_bg})` }}>
+                <div className="bg-[#010C1D] h-[218px] opacity-90 px-4">
+                    <div className="max-w-[1200px] m-auto flex flex-col justify-center h-full">
+                        <p className="text-[20px] font-semibold text-white">Contact Us</p>
+                        <div className="w-[100px] h-[4px] bg-[#ff3a02] my-5"></div>
+                        <Link className="text-white active:border-white border-[#010C1D] border  text-[14px]" to="/">Get in touch</Link>
+                    </div>
+                </div>
+            </div>
+            {/* =====upper part end===== */}
+
+
+            {/* ======MIDDLE PART START======== */}
+            <section className='px-[30px]'>
+                <div className='space-section w-full h-[40px]'> </div>
+                <div className='flex mb-[20px]'>
+                    <div className='w-[46%]'>
+                        <div className='mb-[20px]'>
+                            <h1 className='text-[20px] text-[#E64306] font-medium font-sans'>Contact Info</h1>
+                        </div>
+                        <div className='text-[#033957] text-[33px] font-bold mb-[20px]'>
+                            <h1>LETS GET IN TOUCH</h1>
+                        </div>
+                        <div className="mb-[30px]">
+                            <h1 className="text-[#5F5D5D] font-medium tracking-wider text-[19px]">If you have any questions simply use the following contact details.</h1>
+                        </div>
+                        <div className="mb-[30px]">
+                            <div className="flex mb-[20px]">
+                                <div className="icon_div flex items-center "><BsEnvelope size={28} className="text-[#E64306] mr-[10px]" /></div>
+                                <div className="details_div">
+                                    <h1 className="text-[24px] text-[#737272] font-semibold">Email Address</h1>
+                                    <h1 className="text-[#1F1E1E] text-[14px]">neeeraj@gmail.com</h1>
+                                </div>
+                            </div>
+                            <div className="w-[87%] h-[1px] bg-[#908C8C]"></div>
+                        </div>
+
+                        <div className="mb-[30px]">
+                            <div className="flex mb-[20px]">
+                                <div className="icon_div flex items-center "><BiPhoneCall size={28} className="text-[#E64306] mr-[10px]" /></div>
+                                <div className="details_div">
+                                    <h1 className="text-[24px] text-[#737272] font-semibold">Phone Number</h1>
+                                    <h1 className="text-[#1F1E1E] text-[14px]">+91 5478845744</h1>
+                                </div>
+                            </div>
+                            <div className="w-[87%] h-[1px] bg-[#908C8C]"></div>
+                        </div>
+
+                        <div className="mb-[30px]">
+                            <div className="flex mb-[20px]">
+                                <div className="icon_div flex items-center "><FaSearchLocation size={28} className="text-[#E64306] mr-[10px]" /></div>
+                                <div className="details_div">
+                                    <h1 className="text-[24px] text-[#737272] font-semibold">Office Address</h1>
+                                    <h1 className="text-[#1F1E1E] text-[14px]">156B, Mehrauli-Gurgaon Rd, Sukhrali, Sector 17, Gurugram, Haryana 122001</h1>
+                                </div>
+                            </div>
+                            <div className="w-[87%] h-[1px] bg-[#908C8C]"></div>
+                        </div>
+
+                    </div>
+                    <div className='w-[54%] mr-[20px]'>
+                        <div className='px-[40px] py-[30px] w-full flex  flex-col'>
+                            <div className='w-full  my-[20px] '>
+                                <input type="text" placeholder='Name' className='w-full h-[30px] p-[20px] bg-[#EDEDED] border-solid border outline-none' />
+                            </div>
+                            <div className='w-full  my-[20px]'>
+                                <input type="text" placeholder='Email Address' className='w-full h-[30px] p-[20px] bg-[#EDEDED] border-solid border outline-none' />
+                            </div>
+                            <div className='w-full  my-[20px]'>
+                                <input type="text" placeholder='Phone number' className='w-full h-[30px] p-[20px] bg-[#EDEDED] border-solid border outline-none' />
+                            </div>
+                            <div className='w-full   my-[20px]'>
+                                <textarea rows="4" cols="50" type="text" placeholder='Enter message' className='w-full  p-[20px] bg-[#EDEDED] border-solid border outline-none resize-none' />
+                            </div>
+                            <div className=''>
+                                <button className='bg-[#EC2C05] text-white py-2 px-4 text-[14px] font-medium'> Request Quotes</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            {/* ======MIDDLE PART END======== */}
+
+
+            {/* <div className="bg-center bg-cover" style={{backgroundImage: `url(${contact_bg})`}}>
         <div className="bg-[#010C1D] h-[218px] opacity-90 px-4">
             <div className="max-w-[1200px] m-auto flex flex-col justify-center h-full">
                 <p className="text-[20px] font-semibold text-white">Contact Us</p>
@@ -87,13 +179,9 @@ function Contact() {
         <Google_maps/>
       </div> */}
 
-   
-
-
-
-
-      <Footer/>
-    </div>
-  );
+            <Sahil_gmap />
+            <Footer />
+        </div>
+    );
 }
 export default Contact;
