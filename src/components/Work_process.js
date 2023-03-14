@@ -14,54 +14,54 @@ const Work_process = () => {
         <div>
             <Our_customers/>
             <section>
-                <div className='flex w-full  h-[633px] bg-[#03203C]'>
-                    <div className='left_div  w-1/2'>
-                        <div className='p-[20px] mx-[40px]'>
-                            <div className='text-[#EC2C05] text-[17px] font-semibold my-[20px]'>
+                <div className='flex flex-wrap w-full   bg-[#03203C]'>
+                    <div className='left_div w-full  lg:w-1/2'>
+                        <div className='md:px-[30px] md:py-[50px] mx-[40px]'>
+                            <div className='text-[#EC2C05] text-[17px] flex justify-center lg:block font-semibold my-[20px]'>
                                 <h1>OUR WORK PROCESS</h1>
                             </div>
-                            <div>
+                            <div className='flex justify-center lg:block'>
                                 <h1 className='text-[30px] text-white font-semibold'>The Perfect Solution For All Art Service</h1>
                             </div>
                             <div className='mt-[40px]'>
-                                <div className='flex justify-between my-[20px]'>
-                                    <div className='flex items-center w-[253px]'>
-                                        <div className='text-[#EC2C05] mr-[20px]'><BiSearchAlt2 size={50} /></div>
-                                        <div className='text-[23px] text-white font-bold'><span>Client</span> <br />
+                                <div className='sm:flex flex-wrap sm:flex-nowrap  justify-between my-[20px]'>
+                                    <div className='sm:flex items-center w-full sm:min-w-[180px]  grow shrink basis-0 mt-[20px]'>
+                                        <div className='text-[#EC2C05] mr-[20px] flex justify-center sm:block'><BiSearchAlt2 size={50} /></div>
+                                        <div className='text-[23px] text-white font-bold flex justify-center sm:block'><span>Client &nbsp;</span> <br />
                                             <span>Enquiry</span>
                                         </div>
                                     </div>
-                                    <div className='flex items-center w-[253px]'>
-                                        <div className='text-[#EC2C05] mr-[20px]'><SlPeople size={50} /></div>
-                                        <div className='text-[23px] text-white font-bold'><span>Direct</span> <br />
+                                    <div className='sm:flex items-center w-full sm:w-[253px] grow shrink basis-0 mt-[20px]'>
+                                        <div className='text-[#EC2C05] mr-[20px] flex justify-center sm:block'><SlPeople size={50} /></div>
+                                        <div className='text-[23px] text-white font-bold flex justify-center sm:block'><span>Direct</span> <br />
                                             <span>Communication</span>
                                         </div>
                                     </div>
                                 </div>
-                                <div className='flex justify-between my-[20px]'>
-                                    <div className='flex items-center w-[253px]'>
-                                        <div className='text-[#EC2C05] mr-[20px]'><HiOutlineCursorArrowRipple size={50} /></div>
-                                        <div className='text-[23px] text-white font-bold'><span>Select</span> <br />
+                                <div className='sm:flex flex-wrap md:flex-nowrap justify-between my-[20px]'>
+                                    <div className='sm:flex items-center w-full sm:min-w-[180px] grow shrink basis-0 mt-[20px]'>
+                                        <div className='text-[#EC2C05] mr-[20px] flex justify-center sm:block'><HiOutlineCursorArrowRipple size={50} /></div>
+                                        <div className='text-[23px] text-white font-bold flex justify-center sm:block'><span>Select</span> <br />
                                             <span>Design</span>
                                         </div>
                                     </div>
-                                    <div className='flex items-center w-[253px]'>
-                                        <div className='text-[#EC2C05] mr-[20px]'><SlScreenDesktop size={50} /></div>
-                                        <div className='text-[23px] text-white font-bold'><span>Design</span> <br />
+                                    <div className='sm:flex items-center w-full sm:w-[253px] grow shrink basis-0 mt-[20px]'>
+                                        <div className='text-[#EC2C05] mr-[20px] flex justify-center sm:block'><SlScreenDesktop size={50} /></div>
+                                        <div className='text-[23px] text-white font-bold flex justify-center sm:block'><span>Design</span> <br />
                                             <span>Development</span>
                                         </div>
                                     </div>
                                 </div>
-                                <div className='flex justify-between my-[20px]'>
-                                    <div className='flex items-center w-[253px]'>
-                                        <div className='text-[#EC2C05] mr-[20px]'><FaKiwiBird size={50} /></div>
-                                        <div className='text-[23px] text-white font-bold'><span>On Site</span> <br />
+                                <div className='sm:flex flex-wrap md:flex-nowrap justify-between my-[20px]'>
+                                    <div className='sm:flex items-center w-full sm:min-w-[180px] grow shrink basis-0 mt-[20px]'>
+                                        <div className='text-[#EC2C05] mr-[20px] flex justify-center sm:block'><FaKiwiBird size={50} /></div>
+                                        <div className='text-[23px] text-white font-bold flex justify-center sm:block'><span>On Site</span> <br />
                                             <span>Work</span>
                                         </div>
                                     </div>
-                                    <div className='flex items-center w-[253px]'>
-                                        <div className='text-[#EC2C05] mr-[20px]'><TbStars size={50} /></div>
-                                        <div className='text-[23px] text-white font-bold'><span>Finish Work</span> <br />
+                                    <div className='sm:flex items-center w-full sm:w-[253px] grow shrink basis-0 mt-[20px]'>
+                                        <div className='text-[#EC2C05] mr-[20px] flex justify-center sm:block'><TbStars size={50} /></div>
+                                        <div className='text-[23px] text-white font-bold flex justify-center sm:block'><span>Finish Work</span> <br />
                                             <span>& Feedback</span>
                                         </div>
                                     </div>
@@ -71,7 +71,7 @@ const Work_process = () => {
 
 
                     </div>
-                    <div className='right_div w-1/2 flex items-center bg-[#D8D8D8]'>
+                    <div className='right_div w-full lg:w-1/2 flex items-center bg-[#D8D8D8]'>
                         <div className='px-[40px] py-[30px] w-full flex  flex-col'>
                             <div className='w-full  my-[20px] '>
                                 <input type="text" placeholder='Name' className='w-full h-[30px] p-[20px] border-solid border-[#c0c0c0]' />

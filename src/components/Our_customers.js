@@ -32,32 +32,32 @@ const Our_customers = () => {
             </section>
 
             <section className='px-[20px]  flex  justify-center mb-[50px] mt-[-50px] '>
-                <div className='  w-[80%] z-10 '>
-                    <div className='flex flex-wrap justify-center shadow-md py-[20px] px-[15px] w-full bg-white  ' >
-                        <div className='flex flex-wrap w-full'> 
-                            <div className='text-[#EC2C05] flex justify-center '><BsPersonFill size={50} /></div>
-                            <div className='text-center w-full'>
+                <div className=' w-[95%] md:w-[80%] z-10 '>
+                    <div className='flex flex-wrap justify-evenly shadow-md py-[20px] px-[15px] w-full bg-white  ' >
+                        <div className='md:flex w-full md:w-[250px] md:px-[20px] mt-[15px] border'> 
+                            <div className='text-[#EC2C05] flex justify-center mt-[10px]'><BsPersonFill size={50} /></div>
+                            <div className='text-center w-full mb-[10px]'>
                                 <div className='text-[#021D36] text-[26px] font-bold tracking-widest'>12000+</div>
                                 <div>Happy Customers</div>
                             </div>
                         </div>
-                        <div className='flex w-full'> 
-                            <div className='text-[#EC2C05]'><BiBuilding size={50} /></div>
-                            <div className='text-center w-full'>
+                        <div className='md:flex w-full  md:w-[250px] md:px-[20px] mt-[15px] border'> 
+                            <div className='text-[#EC2C05] flex justify-center mt-[10px]'><BiBuilding size={50} /></div>
+                            <div className='text-center w-full mb-[10px]'>
                                 <div className='text-[#021D36] text-[26px] font-bold tracking-widest'>12000+</div>
                                 <div>Outdoor projects</div>
                             </div>
                         </div>
-                        <div className='flex w-full'> 
-                            <div className='text-[#EC2C05]'><TbBuildingCommunity size={50} /></div>
-                            <div className='text-center w-full'>
+                        <div className='md:flex w-full  md:w-[250px] md:px-[20px] mt-[15px] border'> 
+                            <div className='text-[#EC2C05] flex justify-center mt-[10px]'><TbBuildingCommunity size={50} /></div>
+                            <div className='text-center w-full mb-[10px]'>
                                 <div className='text-[#021D36] text-[26px] font-bold tracking-widest'>12000+</div>
                                 <div>Indoor projects</div>
                             </div>
                         </div>
-                        <div className='flex w-full'> 
-                            <div className='text-[#EC2C05]'><GoThumbsup size={50} /></div>
-                            <div className='text-center w-full'>
+                        <div className='md:flex w-full  md:w-[250px] md:px-[20px] mt-[15px] border'> 
+                            <div className='text-[#EC2C05] flex justify-center mt-[10px]'><GoThumbsup size={50} /></div>
+                            <div className='text-center w-full mb-[10px]'>
                                 <div className='text-[#021D36] text-[26px] font-bold tracking-widest'>12000+</div>
                                 <div>Finished projects</div>
                             </div>

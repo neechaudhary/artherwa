@@ -33,27 +33,27 @@ const Why_choose_us = () => {
                                         <span>Professional</span>
                                     </div>
                                 </div>
-                                <div className='flex flex-wrap items-center justify-center w-[208px] mb-[20px] sm-mb-[0px]'>
+                                <div className='sm:flex  items-center w-full  sm:w-[208px] mb-[20px] sm-mb-[0px]'>
                                     <div className='text-[#EC2C05] flex justify-center sm:block mr-[20px]'><TiMessages size={50} /></div>
                                     <div className='text-white flex justify-center sm:block text-[23px] font-semibold'>
-                                        <span>Free</span><br />
+                                        <span>Free &nbsp;</span><br />
                                         <span>consultation</span>
                                     </div>
                                 </div>
                             </div>
                             <div className='flex flex-wrap justify-center sm:justify-between mt-[20px]'>
-                                <div className='flex flex-wrap items-center justify-center w-[208px] mb-[20px] sm-mb-[0px]'>
+                                <div className='sm:flex flex-wrap items-center justify-center w-[208px] mb-[20px] sm-mb-[0px]'>
                                     <div className='text-[#EC2C05] flex justify-center sm:block mr-[20px]'><AiTwotoneStar size={50} /></div>
-                                    <div className='text-white flex justify-center sm:block text-[23px] font-semibold'>
-                                        <span>Best Quality</span><br />
-                                        <span>Service</span>
-                                    </div>
+                                    <div className='text-white flex flex-col justify-center sm:block text-[23px] font-semibold'>
+                                        <span className='flex justify-center' >Best Quality</span>
+                                        <span className='flex justify-center'>Service</span>
+                                    </div> 
                                 </div>
-                                <div className='flex items-center justify-center w-[208px] mb-[20px] sm-mb-[0px]'>
-                                    <div className='text-[#EC2C05] mr-[20px]'><GiWallet size={50} /></div>
-                                    <div className='text-white text-[23px] font-semibold'>
-                                        <span>Affordable</span><br />
-                                        <span>Pricing</span>
+                                <div className='sm:flex  items-center w-full  sm:w-[208px] mb-[20px] sm-mb-[0px]'>
+                                    <div className='text-[#EC2C05] flex justify-center sm:block mr-[20px]'><GiWallet size={50} /></div>
+                                    <div className='text-white text-[23px] flex justify-center sm:block font-semibold '>
+                                        <span>Affordable&nbsb;</span><br />
+                                        <span>Pricing</span> 
                                     </div>
                                 </div>
                             </div>
@@ -71,7 +71,7 @@ const Why_choose_us = () => {
                         </div>
 
                     </div>
-                    <div className='right_div mb-[30px] mx-[80px] w-full lg:w-[50vw]  '>
+                    <div className='right_div mb-[30px]  w-full lg:w-[48vw]  '>
                         <div className='p-[10px] h-[40%] md:h-[80%]'>
                            <img src={why_choose_us} alt="why choose us image" className='h-[342px] w-full sm:h-full' />
                         </div>

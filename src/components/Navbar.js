@@ -164,7 +164,7 @@ function Navbar(){
                         </div>
                     </div>
                 </div>
-                <div className={ mobileMenu ? 'w-full min-h-[100vh] fixed bg-black/90 top-0 z-10' : 'hidden'}>
+                <div className={ mobileMenu ? 'w-full min-h-[100vh] fixed bg-black/90 top-0 z-30' : 'hidden'}>
                     <div className='absolute h-[40px] w-[40px]  right-[20px] top-[20px] flex items-center justify-center active:border border-[#FE5008] rounded-sm cursor-pointer' onClick={setMobileMenuFalse}>
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-x-lg fill-white hover:fill-white/60 hover:transition-all" viewBox="0 0 16 16">
                             <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z"/>

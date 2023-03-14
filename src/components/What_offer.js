@@ -39,8 +39,8 @@ const What_offer = () => {
                 </div>
 
                 <div className='mt-[20px]'>
-                    <div className='flex justify-between '>
-                        <div className='px-[10px] w-1/3'>
+                    <div className='flex flex-wrap justify-between '>
+                        <div className='px-[10px] w-[600px] md:w-1/3'>
                             <div>
                                 <div className='w-full h-[300px]'>
                                     <div style={{ backgroundImage: `url(${Canvas})`, backgroundPosition: "center", backgroundSize: "cover", backgroundRepeat: "no-repeat" }} className="w-full h-full"></div>
@@ -62,14 +62,14 @@ const What_offer = () => {
                             </div>
 
                         </div>
-                        <div className='px-[10px] w-1/3'>
+                        <div className='px-[10px] w-[600px] md:w-1/3'>
                             <div>
                                 <div className='w-full h-[300px]'>
                                     <div style={{ backgroundImage: `url(${graffiti})`, backgroundPosition: "center", backgroundSize: "cover", backgroundRepeat: "no-repeat" }} className="w-full h-full"></div>
                                 </div>
                                 <div className="px-5">
                                     <div className="flex justify-center text-#000000 mx-[30px] my-[20px] text-[25px] font-semibold">
-                                        <h1>Graffiti</h1>
+                                        <h1 className='md:leading-[75px] lg:leading-none'>Graffiti</h1>
                                     </div>
                                     <div className="flex justify-center text-[#6F6D6D] mb-[20px]">
                                         <h1>
@@ -84,7 +84,7 @@ const What_offer = () => {
                             </div>
 
                         </div>
-                        <div className='px-[10px] w-1/3'>
+                        <div className='px-[10px] w-[600px] md:w-1/3'>
                             <div>
                                 <div className='w-full h-[300px]'>
                                     <div style={{ backgroundImage: `url(${panda_img})`, backgroundPosition: "center", backgroundSize: "cover", backgroundRepeat: "no-repeat" }} className="w-full h-full"></div>
@@ -110,8 +110,8 @@ const What_offer = () => {
                 </div>
 
                 <div className='mt-[20px]'>
-                    <div className='flex justify-between '>
-                        <div className='px-[10px] w-1/3'>
+                    <div className='flex flex-wrap justify-between '>
+                        <div className='px-[10px] w-[600px] md:w-1/3'>
                             <div>
                                 <div className='w-full h-[300px]'>
                                     <div style={{ backgroundImage: `url(${murals})`, backgroundPosition: "center", backgroundSize: "cover", backgroundRepeat: "no-repeat" }} className="w-full h-full"></div>
@@ -133,7 +133,7 @@ const What_offer = () => {
                             </div>
 
                         </div>
-                        <div className='px-[10px] w-1/3'>
+                        <div className='px-[10px] w-[600px] md:w-1/3'>
                             <div>
                                 <div className='w-full h-[300px]'>
                                     <div style={{ backgroundImage: `url(${doodle})`, backgroundPosition: "center", backgroundSize: "cover", backgroundRepeat: "no-repeat" }} className="w-full h-full"></div>
@@ -155,7 +155,7 @@ const What_offer = () => {
                             </div>
 
                         </div>
-                        <div className='px-[10px] w-1/3'>
+                        <div className='px-[10px] w-[600px] md:w-1/3'>
                             <div>
                                 <div className='w-full h-[300px]'>
                                     <div style={{ backgroundImage: `url(${portrait})`, backgroundPosition: "center", backgroundSize: "cover", backgroundRepeat: "no-repeat" }} className="w-full h-full"></div>
@@ -181,8 +181,8 @@ const What_offer = () => {
                 </div>
 
                 <div className='mt-[20px]'>
-                    <div className='flex justify-between '>
-                        <div className='px-[10px] w-1/3'>
+                    <div className='flex flex-wrap justify-between '>
+                        <div className='px-[10px] w-[600px] md:w-1/3'>
                             <div>
                                 <div className='w-full h-[300px]'>
                                     <div style={{ backgroundImage: `url(${sculpture})`, backgroundPosition: "center", backgroundSize: "cover", backgroundRepeat: "no-repeat" }} className="w-full h-full"></div>
@@ -204,7 +204,7 @@ const What_offer = () => {
                             </div>
 
                         </div>
-                        <div className='px-[10px] w-1/3'>
+                        <div className='px-[10px] w-[600px] md:w-1/3'>
                             <div>
                                 <div className='w-full h-[300px]'>
                                     <div style={{ backgroundImage: `url(${relief})`, backgroundPosition: "center", backgroundSize: "cover", backgroundRepeat: "no-repeat" }} className="w-full h-full"></div>
@@ -226,7 +226,7 @@ const What_offer = () => {
                             </div>
 
                         </div>
-                        <div className='px-[10px] w-1/3'>
+                        <div className='px-[10px] w-[600px] md:w-1/3'>
                             <div>
                                 <div className='w-full h-[300px]'>
                                     <div style={{ backgroundImage: `url(${sketch})`, backgroundPosition: "center", backgroundSize: "cover", backgroundRepeat: "no-repeat" }} className="w-full h-full"></div>
@@ -252,8 +252,8 @@ const What_offer = () => {
                 </div>
 
                 <div className='mt-[20px]'>
-                    <div className='flex justify-between '>
-                        <div className='px-[10px] w-1/3'>
+                    <div className='flex flex-wrap justify-between '>
+                        <div className='px-[10px] w-[600px] md:w-1/3'>
                             <div>
                                 <div className='w-full h-[300px]'>
                                     <div style={{ backgroundImage: `url(${installation})`, backgroundPosition: "center", backgroundSize: "cover", backgroundRepeat: "no-repeat" }} className="w-full h-full"></div>
@@ -275,7 +275,7 @@ const What_offer = () => {
                             </div>
 
                         </div>
-                        <div className='px-[10px] w-1/3'>
+                        <div className='px-[10px] w-[600px] md:w-1/3'>
                             <div>
                                 <div className='w-full h-[300px]'>
                                     <div style={{ backgroundImage: `url(${auto_graffiti})`, backgroundPosition: "center", backgroundSize: "cover", backgroundRepeat: "no-repeat" }} className="w-full h-full"></div>
@@ -297,7 +297,7 @@ const What_offer = () => {
                             </div>
 
                         </div>
-                        <div className='px-[10px] w-1/3'>
+                        <div className='px-[10px] w-[600px] md:w-1/3'>
                             <div>
                                 <div className='w-full h-[300px]'>
                                     <div style={{ backgroundImage: `url(${wall_painting})`, backgroundPosition: "center", backgroundSize: "cover", backgroundRepeat: "no-repeat" }} className="w-full h-full"></div>

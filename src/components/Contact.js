@@ -29,8 +29,8 @@ function Contact() {
             {/* ======MIDDLE PART START======== */}
             <section className='px-[30px]'>
                 <div className='space-section w-full h-[40px]'> </div>
-                <div className='flex mb-[20px]'>
-                    <div className='w-[46%]'>
+                <div className='flex flex-wrap md:flex-nowrap  mb-[20px]'>
+                    <div className='w-full   lg:w-[46%]'>
                         <div className='mb-[20px]'>
                             <h1 className='text-[20px] text-[#E64306] font-medium font-sans'>Contact Info</h1>
                         </div>
@@ -74,7 +74,7 @@ function Contact() {
                         </div>
 
                     </div>
-                    <div className='w-[54%] mr-[20px]'>
+                    <div className='w-full  lg:w-[54%] mr-[20px]'>
                         <div className='px-[40px] py-[30px] w-full flex  flex-col'>
                             <div className='w-full  my-[20px] '>
                                 <input type="text" placeholder='Name' className='w-full h-[30px] p-[20px] bg-[#EDEDED] border-solid border outline-none' />
