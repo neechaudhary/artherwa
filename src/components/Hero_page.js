@@ -46,7 +46,7 @@ const Hero_page = () => {
                 <div className=' w-full flex '>
                
                     <div className='max-w-[400px] sm:max-w-[600px] z-10 relative top-[0px] left-[0px] md:left-[100px]'>
-                        <div className='w-full mx-[50px] bg-[#061E3F] p-[10px] content-start'>
+                        <div className='w-full sm:mx-[50px] bg-[#061E3F] p-[10px] content-start'>
                             <div className='mb-[10px] w-full '>
                                 <div className='mt-[20px] ml-[70px]'>
                                     <h5 className='text-[16px] text-white font-semibold tracking-wider'>

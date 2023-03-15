@@ -14,7 +14,7 @@ const Why_choose_us = () => {
         <div>
             <section className='bg-[#03203C] mt-[50px]'>
                 <div className='flex flex-wrap h-full items-center '>
-                    <div className='left_div w-full lg:w-[48%] px-[30px]  ml-[30px]'>
+                    <div className='left_div w-full lg:w-[48%] px-[30px]  sm:ml-[30px]'>
                         <div className='p-[40px]'>
                             <div className='text-[20px] text-[#EC2C05] font-semibold'>
                                 <h1>WHY CHOOSE US</h1>

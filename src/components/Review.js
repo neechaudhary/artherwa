@@ -45,19 +45,19 @@ const Review = () => {
                     <h1>OUR CLIENTS</h1>
                 </div>
                 <div className='flex justify-around mt-[50px]'>
-                    <div className='w-[130px] h-[123px]'>
+                    <div className='w-70px sm:w-[130px] h-[123px]'>
                         <img src={ecom_img} alt="just dial image" />
                     </div>
-                    <div className='w-[130px] h-[123px]'>
+                    <div className='w-70px sm:w-[130px] h-[123px]'>
                         <img src={jawa_img} alt="just dial image" />
                     </div>
-                    <div className='w-[130px] h-[123px]'>
+                    <div className='w-70px sm:w-[130px] h-[123px]'>
                         <img src={burger_company} alt="just dial image" />
                     </div>
-                    <div className='w-[130px] h-[123px]'>
+                    <div className='w-70px sm:w-[130px] h-[123px]'>
                         <img src={team_core} alt="just dial image" />
                     </div>
-                    <div className='w-[130px] h-[123px]'>
+                    <div className='w-70px sm:w-[130px] h-[123px]'>
                         <img src={emblem} alt="just dial image" />
                     </div>
                 </div>
